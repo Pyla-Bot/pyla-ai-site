@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Features | Pyla AI</title>
+  <meta name="description" content="Explore Pyla AI movement, shooting, gadget, detection, match history, and customization features.">
+  <meta property="og:title" content="Pyla AI Features">
+  <meta property="og:image" content="og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Primary navigation"><a class="brand" href="index.html"><img src="assets/Pyla_logo_first_letter.png" alt="" width="36" height="36"><span>Pyla AI</span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button><ul id="nav-menu" class="nav-menu"><li><a href="index.html">Home</a></li><li><a aria-current="page" href="features.html">Features</a></li><li><a href="install.html">Install</a></li><li><a href="docs.html">Docs</a></li><li><a href="download.html">Download</a></li><li><a href="community.html">Community</a></li><li><a href="https://github.com/PylaAI/PylaAI" target="_blank" rel="noopener">GitHub</a></li></ul></nav></header>
+  <main id="main">
+    <section class="page-hero section"><div class="container narrow"><p class="eyebrow">Features</p><h1>Focused automation for supported emulator workflows</h1><p class="lead">Pyla AI combines computer vision, emulator control, and configurable behavior so runs can be tuned, reviewed, and improved.</p></div></section>
+    <section class="section"><div class="container detail-list">
+      <article class="detail-card reveal"><span class="icon">M</span><div><h2>Movement</h2><p>Movement logic keeps the player active and responsive, using detection results and configured behavior to make practical navigation choices.</p></div></article>
+      <article class="detail-card reveal"><span class="icon">S</span><div><h2>Shooting</h2><p>Shooting actions are tied to target awareness, helping the bot engage enemies when detection confidence and timing line up.</p></div></article>
+      <article class="detail-card reveal"><span class="icon">G</span><div><h2>Gadgets</h2><p>Gadget handling can be tuned for the brawler and match flow, keeping special actions predictable during long sessions.</p></div></article>
+      <article class="detail-card reveal"><span class="icon">D</span><div><h2>Enemy & Wall Detection</h2><p>Detection models identify threats, lanes, walls, and obstacles. The training set is documented as 100,000+ images, giving the project a stronger base than simple color matching.</p></div></article>
+      <article class="detail-card reveal"><span class="icon">H</span><div><h2>Match History</h2><p>Run results can be reviewed after sessions, making it easier to spot configuration problems and compare changes.</p></div></article>
+    </div></section>
+    <section class="section split-section"><div class="container split-grid"><div><p class="eyebrow">How it works</p><h2>Vision model plus emulator control</h2><p>Pyla AI uses computer vision models to detect relevant game state from emulator frames, then sends configured actions through the local emulator workflow. Reliability depends on correct resolution, display scale, ADB access, and current model quality.</p></div><img class="inline-art" src="assets/pyla_logo.png" alt="Pyla AI logo" loading="lazy"></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><strong>Pyla AI</strong><p>Privacy note: no sensitive data is collected by this static site.</p></div><div><a href="https://github.com/PylaAI/PylaAI" target="_blank" rel="noopener">GitHub</a><a href="community.html">Discord</a><a href="download.html">Download</a></div></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
