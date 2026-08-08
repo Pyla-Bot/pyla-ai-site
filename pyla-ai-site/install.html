@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Install | Pyla AI</title>
+  <meta name="description" content="Install Pyla AI on Windows with Python 3.11.9, LDPlayer, ADB, and correct display settings.">
+  <meta property="og:title" content="Install Pyla AI">
+  <meta property="og:image" content="og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Primary navigation"><a class="brand" href="index.html"><img src="assets/Pyla_logo_first_letter.png" alt="" width="36" height="36"><span>Pyla AI</span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button><ul id="nav-menu" class="nav-menu"><li><a href="index.html">Home</a></li><li><a href="features.html">Features</a></li><li><a aria-current="page" href="install.html">Install</a></li><li><a href="docs.html">Docs</a></li><li><a href="download.html">Download</a></li><li><a href="community.html">Community</a></li><li><a href="https://github.com/PylaAI/PylaAI" target="_blank" rel="noopener">GitHub</a></li></ul></nav></header>
+  <main id="main">
+    <section class="page-hero section"><div class="container narrow"><p class="eyebrow">Install</p><h1>Set up Pyla AI correctly the first time</h1><p class="lead">Use Windows 10/11, Python 3.11.9, an ADB-capable emulator, and the display settings recommended by the project docs.</p></div></section>
+    <section class="section"><div class="container steps">
+      <article class="step reveal"><span>1</span><div><h2>Install an emulator</h2><p>LDPlayer is recommended. BlueStacks and other emulators can work if ADB is enabled and screen settings match the expected layout.</p></div></article>
+      <article class="step reveal"><span>2</span><div><h2>Enable ADB</h2><p>Turn on Android Debug Bridge access in the emulator settings, restart the emulator, and confirm the device is visible before launching Pyla AI.</p></div></article>
+      <article class="step reveal"><span>3</span><div><h2>Install Python 3.11.9</h2><p>Use Python 3.11.9 on Windows and follow the repository instructions for dependencies or release builds.</p></div></article>
+      <article class="step reveal"><span>4</span><div><h2>Set resolution, DPI, and display zoom</h2><p class="warning">Warning: Having incorrect display settings can cause the Start button to be hidden in the Pyla AI window!</p><p>For BlueStacks, check display resolution and DPI under emulator settings. Restart after changing DPI so the UI and ADB capture dimensions update cleanly.</p></div></article>
+      <article class="step reveal"><span>5</span><div><h2>Launch and verify</h2><p>Start the emulator, open Brawl Stars, run Pyla AI, and confirm detection status before long sessions.</p></div></article>
+    </div></section>
+    <section class="section"><div class="container"><div class="section-heading"><p class="eyebrow">Visual check</p><h2>Brand assets included</h2></div><div class="carousel" data-carousel><button class="carousel-btn prev" type="button" aria-label="Previous image">‹</button><div class="carousel-track"><figure class="carousel-slide is-active"><img src="assets/Pyla_logo_first_letter.png" alt="Pyla icon" loading="lazy"><figcaption>Use the icon to confirm assets load on GitHub Pages.</figcaption></figure><figure class="carousel-slide"><img src="assets/pyla_logo.png" alt="Pyla full logo" loading="lazy"><figcaption>Full logo copied from the local Pyla-Bot folder.</figcaption></figure></div><button class="carousel-btn next" type="button" aria-label="Next image">›</button><div class="carousel-dots" aria-label="Install image selector"></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><strong>Pyla AI</strong><p>Privacy note: no sensitive data is collected by this static site.</p></div><div><a href="docs.html">Docs</a><a href="download.html">Releases</a><a href="community.html">Discord</a></div></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
