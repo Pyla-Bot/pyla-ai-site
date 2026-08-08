@@ -67,8 +67,8 @@ h3 { font-size: 1.12rem; }
 .nav { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: inline-flex; align-items: center; gap: .7rem; font-weight: 800; }
 .brand img { width: 36px; height: 36px; object-fit: contain; }
-.nav-menu { display: flex; align-items: center; gap: .25rem; list-style: none; padding: 0; margin: 0; }
-.nav-menu a { color: var(--muted); padding: .75rem .9rem; border-radius: var(--radius); font-weight: 700; font-size: 1.03rem; }
+.nav-menu { display: flex; align-items: center; gap: .15rem; list-style: none; padding: 0; margin: 0; }
+.nav-menu a { color: var(--muted); padding: .72rem .72rem; border-radius: var(--radius); font-weight: 700; font-size: 1rem; }
 .nav-menu a:hover, .nav-menu a:focus-visible, .nav-menu a[aria-current="page"] { color: #fff; background: #1d1d21; }
 .nav-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
 .nav-toggle span:not(.sr-only) { display: block; width: 20px; height: 2px; margin: 5px auto; background: #fff; }
