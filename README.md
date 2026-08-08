@@ -57,16 +57,9 @@ To refresh assets later:
 Copy-Item -Path "$HOME\Downloads\Pyla-Bot\*" -Destination ".\assets" -Recurse -Force
 ```
 
-## Optional Build
+## Static Files Only
 
-The readable files are `css/styles.css` and `js/main.js`. Minified versions are included for hosting or manual replacement.
-
-```powershell
-npm install
-npm run build
-```
-
-The build script minifies CSS and JS with `clean-css-cli` and `terser`.
+No framework or build step is required. The readable files are `css/styles.css` and `js/main.js`; minified copies are included as static assets.
 
 ## Deploy to GitHub Pages
 

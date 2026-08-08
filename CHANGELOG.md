@@ -11,3 +11,10 @@
 - Added a `/docs` mirror so GitHub Pages works when configured for `main` branch and `/docs` folder.
 - Added a GitHub Actions Pages workflow for reliable static deployment from the repository root.
 - Cleared the placeholder `CNAME` value because GitHub Pages treats that file as a real custom domain.
+
+## 1.0.2 - Content and docs updates
+
+- Added YouTube tutorial links, an Install page YouTube embed, and expanded Discord community details.
+- Added the Common Issues documentation page with rewritten troubleshooting guidance.
+- Removed non-functional update signup copy, visual check content, footer privacy note text, and the Docs page display warning.
+- Updated desktop title sizing, nav label sizing, and Quick Features badges.
