@@ -8,36 +8,6 @@
     });
   }
 
-  document.querySelectorAll("[data-carousel]").forEach(function (carousel) {
-    var slides = Array.prototype.slice.call(carousel.querySelectorAll(".carousel-slide"));
-    var prev = carousel.querySelector(".prev");
-    var next = carousel.querySelector(".next");
-    var dots = carousel.querySelector(".carousel-dots");
-    var index = 0;
-    if (!slides.length || !dots) return;
-
-    function showSlide(nextIndex) {
-      index = (nextIndex + slides.length) % slides.length;
-      slides.forEach(function (slide, i) {
-        slide.classList.toggle("is-active", i === index);
-      });
-      dots.querySelectorAll("button").forEach(function (dot, i) {
-        dot.setAttribute("aria-current", String(i === index));
-      });
-    }
-
-    slides.forEach(function (_, i) {
-      var dot = document.createElement("button");
-      dot.type = "button";
-      dot.setAttribute("aria-label", "Show screenshot " + (i + 1));
-      dot.addEventListener("click", function () { showSlide(i); });
-      dots.appendChild(dot);
-    });
-    if (prev) prev.addEventListener("click", function () { showSlide(index - 1); });
-    if (next) next.addEventListener("click", function () { showSlide(index + 1); });
-    showSlide(0);
-  });
-
   document.querySelectorAll(".accordion-trigger").forEach(function (trigger) {
     trigger.addEventListener("click", function () {
       var expanded = trigger.getAttribute("aria-expanded") === "true";

@@ -18,3 +18,10 @@
 - Added the Common Issues documentation page with rewritten troubleshooting guidance.
 - Removed non-functional update signup copy, visual check content, footer privacy note text, and the Docs page display warning.
 - Updated desktop title sizing, nav label sizing, and Quick Features badges.
+
+## 1.0.3 - Content cleanup
+
+- Removed the homepage screenshots/project visuals section and unused carousel code.
+- Removed letter badges from the Features page detail cards.
+- Moved Getting Started guidance from Docs to Download.
+- Reworked the Community page bypass link into a button and removed placeholder Discord TODO text.
