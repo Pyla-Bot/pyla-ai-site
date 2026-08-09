@@ -18,6 +18,17 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="boot-screen" id="boot-screen" role="dialog" aria-label="Pyla AI startup">
+    <div class="boot-card" aria-hidden="true">
+      <div class="boot-head"><span class="dot"></span><span>pyla_runtime // boot sequence</span></div>
+      <div class="boot-line"><span class="prompt">&gt;</span><span>initializing pyla_runtime v2.4.1</span></div>
+      <div class="boot-line"><span class="prompt">&gt;</span><span>loading vision_models</span><span class="bar"><span></span></span></div>
+      <div class="boot-line" data-bar><span class="prompt">&gt;</span><span>calibrating emulator bridge</span><span class="bar"><span></span></span></div>
+      <div class="boot-line" data-ok><span class="prompt">&gt;</span><span>handshake with adb</span><span class="ok">[ .... ]</span></div>
+      <div class="boot-line"><span class="prompt">&gt;</span><span>match logging online</span></div>
+      <div class="boot-launch"><span class="ring"></span><span>launching interface</span></div>
+    </div>
+  </div>
   <header class="site-header">
     <nav class="nav container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Pyla AI home">
@@ -44,6 +55,7 @@
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <p class="eyebrow">Open source Windows automation</p>
+          <p class="typed-h1" data-text="PYLA AI" aria-label="Pyla AI"></p>
           <h1>Automate Brawl Stars progression with Pyla AI - smart, reliable, and open source.</h1>
           <p class="lead">Pyla AI helps run supported emulator workflows with movement, shooting, enemy detection, wall detection, and match history tools.</p>
           <p class="authentic">Pyla AI is a bot that plays Brawl Stars for you without you having to do anything.</p>
